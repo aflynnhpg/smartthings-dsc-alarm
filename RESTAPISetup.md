@@ -23,6 +23,8 @@ Example returned URL via First URL:
 
 Ok now for the Second URL below, replace $client with your OAuth Client ID again and replace $secret with your OAuth Client ID Secret and finally replace $code with the code from above (just the bits after the equal sign so for this example just YdJJS2y).
 
+Log out of smartthings in your browswer before pasting in the next URL.
+
 Second URL:
 
     https://graph.api.smartthings.com/oauth/token?grant_type=authorization_code&scope=app&redirect_uri=http://localhost&client_id=$client&client_secret=$secret&code=$code
